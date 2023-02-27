@@ -37,5 +37,5 @@ jobs:
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
-          username: mohamedatef9211@gmail.com
-          password: Redevil9211
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
